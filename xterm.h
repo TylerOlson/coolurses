@@ -1,0 +1,7 @@
+#ifndef ASCIIXTERM_H
+#define ASCIIXTERM_H
+
+#define ALT_SCREEN_BUFFER "\033[?1049h"
+#define MAIN_SCREEN_BUFFER "\033[?1049l"
+
+#endif
