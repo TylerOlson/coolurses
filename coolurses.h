@@ -1,3 +1,45 @@
-#include "color.h"
-#include "clear.h"
-#include "xterm.h"
+#ifndef COOLURSES_h
+#define COOLURSES_h
+
+#define BELL_CHARACTER "\a"
+
+#define DEFAULT_TEXT "\033[0m"
+#define BOLD_TEXT "\033[1m"
+#define UNDERLINE_TEXT "\033[4m"
+#define BLINK_TEXT "\033[5m"
+#define REVERSE_TEXT "\033[7m"
+#define NODISPLAYED_TEXT "\033[8m"
+
+#define BLACK_FOREGROUND "\033[0;30m"
+#define DARK_RED_FOREGROUND "\033[0;31m"
+#define DARK_GREEN_FOREGROUND "\033[0;32m"
+#define DARK_YELLOW_FOREGROUND "\033[0;33m"
+#define DARK_BLUE_FOREGROUND "\033[0;34m"
+#define DARK_PURPLE_FOREGROUND "\033[0;35m"
+#define DARK_CYAN_FOREGROUND "\033[0;36m"
+#define GRAY_FOREGROUND "\033[0;37m"
+
+#define DARK_GRAY_FOREGROUND "\033[1;30m"
+#define RED_FOREGROUND "\033[1;31m"
+#define GREEN_FOREGROUND "\033[1;32m"
+#define YELLOW_FOREGROUND "\033[1;33m"
+#define BLUE_FOREGROUND "\033[1;34m"
+#define PURPLE_FOREGROUND "\033[1;35m"
+#define CYAN_FOREGROUND "\033[1;36m"
+#define WHITE_FOREGROUND "\033[1;37m"
+
+#define BLACK_BACKGROUND "\033[40m"
+#define RED_BACKGROUND "\033[41m"
+#define GREEN_BACKGROUND "\033[42m"
+#define YELLOW_BACKGROUND "\033[43m"
+#define BLUE_BACKGROUND "\033[44m"
+#define MAGENTA_BACKGROUND "\033[45m"
+#define CYAN_BACKGROUND "\033[46m"
+#define WHITE_BACKGROUND "\033[47m"
+
+#define ALT_SCREEN_BUFFER "\033[?1049h"
+#define MAIN_SCREEN_BUFFER "\033[?1049l"
+
+#define CLEAR_SCREEN "\033[J"
+
+#endif
